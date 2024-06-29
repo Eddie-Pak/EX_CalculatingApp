@@ -33,6 +33,9 @@ class MainActivity : AppCompatActivity() {
 
         minusButton.setOnClickListener {
             number -= 1
+            if (number < 0) {
+                number = 0
+            }
             numberTextView.text = number.toString()
         }
 
