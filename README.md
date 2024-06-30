@@ -1,5 +1,7 @@
 # 숫자세기 앱
 
+<img src= "https://github.com/Eddie-Pak/EX_CalculatingApp/assets/136288531/a7332f7d-3dc1-4c59-aa59-704e759a8233" width="300">
+
 # 구현 기능
 
 - '+' 버튼을 클릭 시, 숫자를 1씩 올리기
