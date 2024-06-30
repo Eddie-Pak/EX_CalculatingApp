@@ -27,4 +27,5 @@
 
 # 한 걸음 더
 
-- 버튼 추가 및 레이아웃 정리해보기
+- viewBinding, weight, onSaveInstanceState, onRestoreInstanceState 활용하여 업데이트 완료
+- 추후에 UI를 좀 더 깔끔하게 업데이트 해보기
