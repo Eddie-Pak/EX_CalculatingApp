@@ -10,7 +10,8 @@
     <TextView
         android:id="@+id/numberTextView"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
         android:text="0"
         android:textSize="100sp"
         android:textColor="@color/blue"
@@ -22,6 +23,8 @@
         android:id="@+id/calculatingButtonLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:gravity="center"
         android:orientation="horizontal">
 
         <Button
@@ -43,13 +46,18 @@
             />
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:gravity="center"
+        >
     <Button
         android:id="@+id/resetButton"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="초기화"
-
-        android:layout_gravity="center"
         />
+    </LinearLayout>
 
 </LinearLayout>
